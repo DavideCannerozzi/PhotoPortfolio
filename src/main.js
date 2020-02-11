@@ -10,6 +10,7 @@ import Italy from './components/Italy'
 Vue.config.productionTip = false
 Vue.use(vueRouter)
 
+
 const router = new vueRouter({
   mode:'history',
   routes:[

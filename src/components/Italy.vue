@@ -1,33 +1,35 @@
 <template>
-    <v-app>
-        <v-container>
-        <v-row>
-         <v-col v-for="n in 12" :key="n" cols="4">
-             <v-img contain v-for="image in images" :src="image.source" :key="image.alt" :alt="image.alt"></v-img>
-            
-         </v-col> 
-     </v-row>
+    <v-container>
+        <v-carousel>
+            <v-carousel-item v-for="image in images" 
+                             :key="image.alt" 
+                             :src="image.src" 
+                             :alt="image.alt">
+            </v-carousel-item>
+        </v-carousel>
    </v-container>
-    </v-app>
 </template>
-
+src\assets\image.jpg
 <script>
-import Image01 from '@/assets/image.jpg' 
+import Image01 from '../assets/image.jpg';
+import Image02 from '../assets/image01.jpg';
+import Image03 from '../assets/image04.jpg';
+
 
 export default {
     data(){
         return{
-             images:[
-              {source: Image01, alt:"asd"},
-              {source: Image01, alt:"sds"},
-              {source: Image01 , alt:"asdf"}
+          images : [
+              {src: Image01, alt:"asd"},
+              {src: Image02, alt:"sds"},
+              {src: Image03 , alt:"asdf"}
           ]
         }
     }
 }
 </script>
 
-<style lang="stylus">
+<style lang>
 
 
 </style>
