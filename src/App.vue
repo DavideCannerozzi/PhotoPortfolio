@@ -6,7 +6,7 @@
           <NavBar />
           <router-view></router-view> 
       </v-content>
-      <Footer />
+          <Footer />
     </v-container>
   </v-app>
 </template>
@@ -16,18 +16,13 @@ import Header from './components/Header'
 import NavBar from './components/NavBar'
 import Footer from './components/Footer'
 
-
 export default {
   name: 'App',
-
-
   components: {
     NavBar,
     Header,
     Footer
-
   },
-
   data: () => ({
 
   }),
@@ -35,11 +30,7 @@ export default {
 </script>
 
 <style>
-li{
-  list-style: none;
-}
-a{
-  text-decoration:none;
-}
+li{ list-style: none; }
+a{ text-decoration:none; }
 
 </style>
