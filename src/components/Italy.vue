@@ -1,25 +1,23 @@
 <template>
     <v-container>
-        <v-carousel>
-            <v-carousel-item v-for="image in images" 
-                             :key="image.alt" 
-                             :src="image.src" 
-                             :alt="image.alt">
-            </v-carousel-item>
-        </v-carousel>
+       <Carousel :myImages="myImages"/>
    </v-container>
 </template>
-src\assets\image.jpg
+
 <script>
+import Carousel from './Carousel.vue';
 import Image01 from '../assets/image.jpg';
 import Image02 from '../assets/image01.jpg';
 import Image03 from '../assets/image04.jpg';
 
 
 export default {
+    components:{
+        Carousel
+    },
     data(){
         return{
-          images : [
+          myImages : [
               {src: Image01, alt:"asd"},
               {src: Image02, alt:"sds"},
               {src: Image03 , alt:"asdf"}
@@ -29,7 +27,7 @@ export default {
 }
 </script>
 
-<style lang>
+<style>
 
 
 </style>
