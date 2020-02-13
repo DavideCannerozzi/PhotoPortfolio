@@ -1,7 +1,7 @@
 <template>
-    <div>
-        <p class="orange red--text pa-4 text-center">Footer</p>
-    </div>
+    <v-footer>
+        <p>Footer</p>
+    </v-footer>
 </template>
 
 

@@ -32,5 +32,9 @@ export default {
 <style>
 li{ list-style: none; }
 a{ text-decoration:none; }
+.v-application--wrap{
+  min-height:1vh!important;
+}
+
 
 </style>

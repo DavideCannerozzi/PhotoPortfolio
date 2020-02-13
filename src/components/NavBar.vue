@@ -2,7 +2,9 @@
     <v-app>
         <nav class="navbar">
             <ul class="d-flex justify-space-around pa-4">
-                <li v-for="link in links" :key="link.title"><router-link :to="link.route">{{ link.title }}</router-link></li>
+                <li v-for="link in links" :key="link.title">
+                    <router-link :to="link.route" class="white--text">{{ link.title }}</router-link>
+                </li>
             </ul>
         </nav>
     </v-app>
@@ -26,13 +28,24 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .navbar{
-    background:black;
+    background:#443737;
     color:white;
 }
 .v-application--wrap{
     min-height:1vh!important;
+}
+
+@media (max-width:480px){
+    .navbar ul{
+        display:block!important;
+        text-align:center;
+
+    }
+    .navbar ul li{
+        margin-top:15px
+    }
 }
 
 </style>
