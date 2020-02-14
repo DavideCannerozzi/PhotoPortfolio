@@ -30,10 +30,18 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+
 li{ list-style: none; }
 a{ text-decoration:none; }
 .v-application--wrap{
   min-height:1vh!important;
+}
+
+p{
+  font-family: 'Playfair Display', serif;
+  font-size:14px;
+  line-height: 1.8
 }
 
 

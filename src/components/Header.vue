@@ -42,7 +42,6 @@ header{
     align-items: center!important;
 }
 .container-description{
-    font-family: 'Playfair Display', serif;
     width:80%;
     margin:20px auto;
     line-height:1.9
