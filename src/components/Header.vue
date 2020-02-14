@@ -40,6 +40,7 @@ header{
     font-family: 'Sacramento', cursive;
     font-size:25px!important;
     align-items: center!important;
+    border-bottom:2px solid black
 }
 .container-description{
     width:80%;

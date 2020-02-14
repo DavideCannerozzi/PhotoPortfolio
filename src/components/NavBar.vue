@@ -1,6 +1,6 @@
 <template>
     <v-app>
-        <nav class="navbar">
+        <nav class="navbar white--text">
             <ul class="d-flex justify-space-around pa-4">
                 <li v-for="link in links" :key="link.title">
                     <router-link :to="link.route" class="white--text">{{ link.title }}</router-link>
@@ -16,12 +16,11 @@
 export default {
     data(){
         return{
-            drawer:true,
             links : [
                 { title:'Australia', route:'/Australia'},
                 { title:'Italy', route:'/Italy'},
                 { title:'Laos', route:'/Laos'},
-                { title:'About Me', route:'/About'},
+                { title:'Vietnam', route:'/Vietnam'},
             ]
         }
     }
@@ -30,8 +29,8 @@ export default {
 
 <style scoped>
 .navbar{
-    background:#443737;
-    color:white;
+    background:#40B3A2;
+    border-radius:5px
 }
 .v-application--wrap{
     min-height:1vh!important;

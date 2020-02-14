@@ -2,7 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import vuetify from './plugins/vuetify';
 import vueRouter from 'vue-router'
-import About from './components/About'
+import Vietnam from './components/Vietnam'
 import Australia from './components/Australia'
 import Laos from './components/Laos'
 import Italy from './components/Italy'
@@ -15,9 +15,9 @@ const router = new vueRouter({
   mode:'history',
   routes:[
     {
-      path:'/About',
-      name:'About',
-      component:About
+      path:'/Vietnam',
+      name:'Vietnam',
+      component:Vietnam
     },
     {
       path:'/Laos',

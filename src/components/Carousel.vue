@@ -20,4 +20,8 @@ export default {
 
 
 <style>
+.v-window__prev,
+.v-window__next{
+    background:none
+}
 </style>
