@@ -10,7 +10,6 @@ import Italy from './components/Italy'
 Vue.config.productionTip = false
 Vue.use(vueRouter)
 
-
 const router = new vueRouter({
   mode:'history',
   routes:[
@@ -25,7 +24,7 @@ const router = new vueRouter({
       component:Laos
     },
     {
-      path:'/Australia',
+      path:'/',
       name:'Australia',
       component:Australia
     },
@@ -36,7 +35,6 @@ const router = new vueRouter({
     }
   ]
 })
-
 
 new Vue({
   router,

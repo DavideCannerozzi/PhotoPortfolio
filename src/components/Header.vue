@@ -1,14 +1,13 @@
 <template>
-      <div>
+    <div>
         <header class="d-flex justify-space-around align-items-center">
             <div class="container-title text-center">
-           <h1 class="mr-4 header">Davide Cannerozzi</h1>
-                
-            </div>
-                <div class="container-button">
-            <v-btn icon v-for="icon in icons" :key="icon.name" class="mr-5 hidden-xs-only">
-                <a class :href="icon.url" :target="icon.target"><v-icon :color="icon.color" size="30">{{ icon.name }}</v-icon></a> 
-            </v-btn>
+                <a href="/"><h1 class="mr-4 header">Davide Cannerozzi</h1></a>
+           </div>
+            <div class="container-button">
+                <v-btn icon v-for="icon in icons" :key="icon.name" class="mr-5 hidden-xs-only">
+                    <a class :href="icon.url" :target="icon.target"><v-icon :color="icon.color" size="30">{{ icon.name }}</v-icon></a> 
+                </v-btn>
             </div>
         </header>
         <div class="container-description">
@@ -18,14 +17,13 @@
 </template>
 
 <script>
-
 export default {
     data(){
         return{
             icons:[
-                { name:'fab fa-twitter', url:'https://twitter.com', target:'_blank',color:'#1C9DEB' },
-                { name:'fab fa-facebook', url:'https://google.com', target:'_blank', color:'#4064AD' },
-                { name:'fab fa-flickr', url:'https://google.com' ,target:'_blank',color:'red' },
+                { name:'fab fa-twitter', url:'https://twitter.com/Davide61627979', target:'_blank', color:'#1C9DEB' },
+                { name:'fab fa-facebook', url:'https://www.facebook.com/davide.cannerozzi', target:'_blank', color:'#4064AD' },
+                { name:'fab fa-flickr', url:'https://www.flickr.com/photos/187187986@N03/' ,target:'_blank', color:'#F00' }
             ]
         }
     }
@@ -50,7 +48,7 @@ header{
 
 @media (max-width:580px){
    header{
-       display:block!important;
+       display:block!important
    }
    .container-title{
        width:100%!important

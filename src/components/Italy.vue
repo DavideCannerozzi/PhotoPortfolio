@@ -10,7 +10,6 @@ import Image01 from '../assets/image.jpg';
 import Image02 from '../assets/image01.jpg';
 import Image03 from '../assets/image04.jpg';
 
-
 export default {
     components:{
         Carousel
@@ -26,8 +25,3 @@ export default {
     }
 }
 </script>
-
-<style>
-
-
-</style>

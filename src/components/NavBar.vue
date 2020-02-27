@@ -12,15 +12,14 @@
 
 <script>
 
-
 export default {
     data(){
         return{
             links : [
-                { title:'Australia', route:'/Australia'},
+                { title:'Australia', route:'/'},
                 { title:'Italy', route:'/Italy'},
                 { title:'Laos', route:'/Laos'},
-                { title:'Vietnam', route:'/Vietnam'},
+                { title:'Vietnam', route:'/Vietnam'}
             ]
         }
     }
@@ -29,7 +28,7 @@ export default {
 
 <style scoped>
 .navbar{
-    background:#40B3A2;
+    background:#40B3A2;          
     border-radius:5px
 }
 .v-application--wrap{
@@ -40,11 +39,9 @@ export default {
     .navbar ul{
         display:block!important;
         text-align:center;
-
     }
     .navbar ul li{
         margin-top:15px
     }
 }
-
 </style>

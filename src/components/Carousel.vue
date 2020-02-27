@@ -10,14 +10,11 @@
    </v-container>
 </template>
 
-
 <script>
 export default {
     props:['myImages']
 }
-
 </script>
-
 
 <style>
 .v-window__prev,
