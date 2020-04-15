@@ -6,9 +6,10 @@
 
 <script>
 import Carousel from './Carousel.vue';
-import Image01 from '../assets/image.jpg';
-import Image02 from '../assets/image01.jpg';
-import Image03 from '../assets/image04.jpg';
+import imageVietnam01 from '../assets/VietnamPhotos/bridge-vietnam.jpg';
+import imageVietnam02 from '../assets/VietnamPhotos/hanoi-vietnam.jpg';
+import imageVietnam03 from '../assets/VietnamPhotos/shop-vietnam.jpg';
+import imageVietnam04 from '../assets/VietnamPhotos/street-vietnam.jpg';
 
 export default {
     components:{
@@ -17,9 +18,10 @@ export default {
     data(){
         return{
              myImages : [
-              {src: Image01, alt:"asd"},
-              {src: Image02, alt:"sds"},
-              {src: Image03 , alt:"asdf"}
+              {src: imageVietnam01, alt:"bridge-hanoi"},
+              {src: imageVietnam02, alt:"hanoi"},
+              {src: imageVietnam03 , alt:"market"},
+              {src: imageVietnam04, alt:"street"}
           ]
         }
     }

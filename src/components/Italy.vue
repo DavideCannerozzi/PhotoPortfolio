@@ -6,9 +6,11 @@
 
 <script>
 import Carousel from './Carousel.vue';
-import Image01 from '../assets/image.jpg';
-import Image02 from '../assets/image01.jpg';
-import Image03 from '../assets/image04.jpg';
+import imageItaly01 from '../assets/ItalyPhotos/dolomites-italy.jpg';
+import imageItaly02 from '../assets/ItalyPhotos/funes-italy.jpg';
+import imageItaly03 from '../assets/ItalyPhotos/tuscany-italy.jpg';
+import imageItaly04 from '../assets/ItalyPhotos/village-italy.jpg'
+
 
 export default {
     components:{
@@ -17,9 +19,10 @@ export default {
     data(){
         return{
           myImages : [
-              {src: Image01, alt:"asd"},
-              {src: Image02, alt:"sds"},
-              {src: Image03 , alt:"asdf"}
+              {src: imageItaly01, alt:"dolomites"},
+              {src: imageItaly02, alt:"funes-village"},
+              {src: imageItaly03 , alt:"tuscany"},
+              {src: imageItaly04, alt:"village"}
           ]
         }
     }

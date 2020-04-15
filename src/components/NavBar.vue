@@ -29,19 +29,15 @@ export default {
 <style scoped>
 .navbar{
     background:#40B3A2;          
-    border-radius:5px
+    border-radius:0.4rem
 }
-.v-application--wrap{
-    min-height:1vh!important;
-}
+.v-application--wrap{ min-height:1vh!important }
 
 @media (max-width:480px){
     .navbar ul{
         display:block!important;
         text-align:center;
     }
-    .navbar ul li{
-        margin-top:15px
-    }
+    .navbar ul li{ margin-top:1rem }
 }
 </style>

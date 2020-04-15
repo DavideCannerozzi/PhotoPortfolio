@@ -7,9 +7,10 @@
 </template>
 <script>
 import Carousel from './Carousel.vue';
-import Image01 from '../assets/image.jpg';
-import Image02 from '../assets/image01.jpg';
-import Image03 from '../assets/image04.jpg';
+import imageAustralia01 from '../assets/AustraliaPhotos/island-australia.jpg';
+import imageAustralia02 from '../assets/AustraliaPhotos/koala-australia.jpg';
+import imageAustralia03 from '../assets/AustraliaPhotos/sydney-australia.jpg';
+import imageAustralia04 from '../assets/AustraliaPhotos/uluru-australia.jpg';
 
 export default {
     components:{
@@ -18,9 +19,10 @@ export default {
     data(){
         return{
             myImages:[
-                {src:Image01, alt:''},
-                {src:Image02, alt:''},
-                {src:Image03, alt:''}
+                {src:imageAustralia01, alt:"island-australia"},
+                {src:imageAustralia02, alt:"koala"},
+                {src:imageAustralia03, alt:"sydney"},
+                {src:imageAustralia04, alt:"uluru"}
             ]
         }
     }

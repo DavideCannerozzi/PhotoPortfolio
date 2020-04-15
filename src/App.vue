@@ -34,12 +34,10 @@ li{ list-style: none }
   color:black!important;
   text-decoration:none!important 
 }
-.v-application--wrap{
-  min-height:1vh!important
-}
+.v-application--wrap{ min-height:1vh!important }
 p{
   font-family: 'Playfair Display', serif;
-  font-size:14px;
+  font-size:0.9rem;
   line-height: 1.8
 }
 </style>

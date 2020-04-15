@@ -10,9 +10,9 @@
                 </v-btn>
             </div>
         </header>
-        <div class="container-description">
-          <p class="text-center pa-3">Lorem Cras eleifend varius dictum. Nulla molestie rhoncus lorem, at vehicula quam porttitor ut. Nulla condimentum vitae mi bibendum mollis. Aenean nec blandit velit. Etiam ornare ipsum vel nulla dapibus, et mollis purus pretium. </p>
-        </div>
+            <div class="container-description">
+                <p class="text-center pa-3">Lorem Cras eleifend varius dictum. Nulla molestie rhoncus lorem, at vehicula quam porttitor ut. Nulla condimentum vitae mi bibendum mollis. Aenean nec blandit velit. Etiam ornare ipsum vel nulla dapibus, et mollis purus pretium. </p>
+            </div>
     </div>
 </template>
 
@@ -36,13 +36,13 @@ export default {
 
 header{
     font-family: 'Sacramento', cursive;
-    font-size:25px!important;
+    font-size:1.5rem!important;
     align-items: center!important;
-    border-bottom:2px solid black
+    border-bottom:0.2rem solid black
 }
 .container-description{
     width:80%;
-    margin:20px auto;
+    margin:1.25rem auto;
     line-height:1.9
 }
 
