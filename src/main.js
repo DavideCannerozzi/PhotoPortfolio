@@ -16,24 +16,33 @@ const router = new vueRouter({
     {
       path:'/Vietnam',
       name:'Vietnam',
-      component:Vietnam
+      component:Vietnam,
+      meta:{ title:'Vietnam' }
     },
     {
       path:'/Laos',
       name:'Laos',
-      component:Laos
+      component:Laos,
+      meta:{ title:'Laos' }
     },
     {
       path:'/',
       name:'Australia',
-      component:Australia
+      component:Australia,
+      meta:{ title:'Australia' }
     },
     {
       path:'/Italy',
       name:'Italy',
-      component:Italy
+      component:Italy,
+      meta:{ title:'Italy' }
     }
   ]
+})
+
+router.beforeEach(( to,from,next ) => {
+  document.title = to.meta.title + ' || Davide Cannerozzi'
+  next()
 })
 
 new Vue({

@@ -11,7 +11,6 @@ import imageItaly02 from '../assets/ItalyPhotos/funes-italy.jpg';
 import imageItaly03 from '../assets/ItalyPhotos/tuscany-italy.jpg';
 import imageItaly04 from '../assets/ItalyPhotos/village-italy.jpg'
 
-
 export default {
     components:{
         Carousel
@@ -19,10 +18,10 @@ export default {
     data(){
         return{
           myImages : [
-              {src: imageItaly01, alt:"dolomites"},
-              {src: imageItaly02, alt:"funes-village"},
-              {src: imageItaly03 , alt:"tuscany"},
-              {src: imageItaly04, alt:"village"}
+              { src: imageItaly01, alt:"dolomites" },
+              { src: imageItaly02, alt:"funes-village" },
+              { src: imageItaly03 , alt:"tuscany" },
+              { src: imageItaly04, alt:"village" }
           ]
         }
     }

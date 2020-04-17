@@ -21,9 +21,9 @@ export default {
     data(){
         return{
             icons:[
-                { name:'fab fa-twitter', url:'https://twitter.com/Davide61627979', target:'_blank', color:'#1C9DEB' },
-                { name:'fab fa-facebook', url:'https://www.facebook.com/davide.cannerozzi', target:'_blank', color:'#4064AD' },
-                { name:'fab fa-flickr', url:'https://www.flickr.com/photos/187187986@N03/' ,target:'_blank', color:'#F00' }
+                { name:'fab fa-twitter', url:'https://twitter.com', target:'_blank', color:'#1C9DEB' },
+                { name:'fab fa-facebook', url:'https://facebook.com', target:'_blank', color:'#4064AD' },
+                { name:'fab fa-flickr', url:'https://flickr.com' ,target:'_blank', color:'#F00' }
             ]
         }
     }

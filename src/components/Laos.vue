@@ -1,7 +1,7 @@
 <template>
-    <div>
+    <v-container>
         <Carousel :myImages="myImages"/>
-    </div>
+    </v-container>
 </template>
 
 <script>
@@ -11,26 +11,19 @@ import imageLaos02 from "@/assets/LaosPhotos/cascade-laos.jpg";
 import imageLaos03 from "@/assets/LaosPhotos/laos.jpg";
 import imageLaos04 from "@/assets/LaosPhotos/village-laos.jpg";
 
-
 export default {
     components:{
         Carousel
     },
     data(){
         return{
-        myImages:[
-            { src:imageLaos01, alt:"buddha" },
-            { src:imageLaos02, alt:"cascade-laos" },
-            { src:imageLaos03, alt:"image-laos" },
-            { src:imageLaos04, alt:"village" },
-        ]
-     }
+            myImages:[
+                { src:imageLaos01, alt:"buddha" },
+                { src:imageLaos02, alt:"cascade-laos" },
+                { src:imageLaos03, alt:"image-laos" },
+                { src:imageLaos04, alt:"village" }
+            ]
+        }
     }
-    
 }
 </script>
-
-<style>
-
-
-</style>

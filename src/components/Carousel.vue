@@ -13,15 +13,15 @@
    </v-container>
 </template>
 
-<script>
+<script> 
 export default {
     props:['myImages']
 }
 </script>
 
 <style>
+
 .v-window__prev,
 .v-window__next{ background:none }
-
 
 </style>

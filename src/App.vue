@@ -24,6 +24,7 @@ export default {
     Footer
   }
 }
+
 </script>
 
 <style>
@@ -40,4 +41,5 @@ p{
   font-size:0.9rem;
   line-height: 1.8
 }
+
 </style>

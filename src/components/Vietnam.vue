@@ -1,7 +1,7 @@
 <template>
-    <div>
+    <v-container>
         <Carousel :myImages = myImages />
-    </div>
+    </v-container>
 </template>
 
 <script>
@@ -18,18 +18,13 @@ export default {
     data(){
         return{
              myImages : [
-              {src: imageVietnam01, alt:"bridge-hanoi"},
-              {src: imageVietnam02, alt:"hanoi"},
-              {src: imageVietnam03 , alt:"market"},
-              {src: imageVietnam04, alt:"street"}
-          ]
+                { src: imageVietnam01, alt:"bridge-hanoi" },
+                { src: imageVietnam02, alt:"hanoi" },
+                { src: imageVietnam03 , alt:"market" },
+                { src: imageVietnam04, alt:"street" }
+            ]
         }
     }
-    
 }
 </script>
 
-<style>
-
-
-</style>
