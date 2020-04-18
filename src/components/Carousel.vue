@@ -1,6 +1,6 @@
 <template>
     <v-container>
-        <v-carousel height="550" hide-delimiter-background="true">
+        <v-carousel>
             <v-carousel-item v-for="image in myImages" 
                              :key="image.alt" 
                              :src="image.src" 

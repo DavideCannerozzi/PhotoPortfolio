@@ -3,7 +3,7 @@
         <nav class="navbar white--text">
             <ul class="d-flex justify-space-around pa-3">
                 <li v-for="link in links" :key="link.title">
-                    <router-link :to="link.route" class="white--text">{{ link.title }}</router-link>
+                    <router-link :to="link.route" class="white--text text-uppercase">{{ link.title }}</router-link>
                 </li>
             </ul>
         </nav>
@@ -24,8 +24,6 @@ export default {
         }
     }
 }
-
-
 
 </script>
 

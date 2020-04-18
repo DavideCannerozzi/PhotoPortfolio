@@ -6,10 +6,10 @@
 
 <script>
 import Carousel from './Carousel.vue';
-import imageLaos01 from "@/assets/LaosPhotos/buddha-laos.jpg";
-import imageLaos02 from "@/assets/LaosPhotos/cascade-laos.jpg";
-import imageLaos03 from "@/assets/LaosPhotos/laos.jpg";
-import imageLaos04 from "@/assets/LaosPhotos/village-laos.jpg";
+import imageLaos01 from "../assets/LaosPhotos/buddha-laos.jpg";
+import imageLaos02 from "../assets/LaosPhotos/cascade-laos.jpg";
+import imageLaos03 from "../assets/LaosPhotos/laos.jpg";
+import imageLaos04 from "../assets/LaosPhotos/village-laos.jpg";
 
 export default {
     components:{
