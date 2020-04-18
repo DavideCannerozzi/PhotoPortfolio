@@ -39,6 +39,9 @@ export default {
         display:block!important;
         text-align:center;
     }
-    .navbar ul li{ margin-top:1rem }
+    .navbar ul li{
+        margin-top:0.5rem
+    }
+    
 }
 </style>
