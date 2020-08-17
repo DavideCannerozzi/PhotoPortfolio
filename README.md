@@ -1,4 +1,7 @@
-# photo
+# Photography Portfolio Template
+## Vue.js - Vuetify
+
+## Project: (https://photo-portfolio-vue.netlify.app)  
 
 ## Project setup
 ```
